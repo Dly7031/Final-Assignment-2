@@ -1,0 +1,86 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: white;
+    background: url("../images/bats.gif");
+    width: 800px;
+    border: black;
+    box-shadow: 5px 10px black;
+    margin: auto auto auto auto;
+    padding: 4px 4px 4px 4px;
+    background-repeat: repeat;
+    position: relative;
+    align-content: center;
+}
+header {
+    background-color: white;
+    border-bottom: 5px solid black;
+    background: linear-gradient(45deg,white, orange 75%, black);
+}
+section {
+    margin-top: 30px;
+    float: left;
+    width: 160px;
+}
+section h2{
+    font-size: 15px;
+}
+main {
+    background-color: white;
+    border: black;
+    padding-left: 180px;
+    
+}
+footer {
+    background-color: white;
+    border-top: 5px solid black;
+    background: linear-gradient(45deg, black, orange 75%, white);
+}
+a {
+    font-weight: bold;
+    color: orange;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.theWordW::first-letter{
+    font-size: 60px;
+}
+header img{
+    float: left;
+}
+header h2 {
+    font-size: 230%;
+    text-indent: 30px;
+    font-weight: bold;
+    }
+header h3 {
+    font-size: 120%;
+    text-indent: 30px;
+    font-weight: bold;
+}
+section ul li a {
+    color: orange;
+    font-weight: bold;
+    margin: 20px;
+    margin-bottom: 2px;
+}
+a:link,  a:visited {
+    color: orange;
+}
+a:hover {
+color: green;
+}
+footer p {
+    bottom: 0;
+    font-size: 90%;
+    text-align: center;
+}
