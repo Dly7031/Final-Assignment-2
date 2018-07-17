@@ -3,7 +3,7 @@ body {
     background-color: white;
     background: url("../images/bats.gif");
     width: 800px;
-    border: black;
+    border: black solid 10px;
     box-shadow: 5px 10px black;
     margin: auto auto auto auto;
     padding: 4px 4px 4px 4px;
@@ -28,7 +28,10 @@ main {
     background-color: white;
     border: black;
     padding-left: 180px;
-    
+}
+
+main a{
+    float: left;
 }
 footer {
     background-color: white;
@@ -58,7 +61,7 @@ header img{
     float: left;
 }
 header h2 {
-    font-size: 230%;
+    font-size: 200%;
     text-indent: 30px;
     font-weight: bold;
     }
